@@ -1,0 +1,26 @@
+{
+  "name": "url_shortner",
+  "version": "1.0.0",
+  "description": "Service for URL shortening",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm index",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "url",
+    "shortner"
+  ],
+  "author": "Sachin Sarawgi",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.19",
+    "shortid": "^2.2.15",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
